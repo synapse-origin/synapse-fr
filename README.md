@@ -10,8 +10,6 @@
 **Languages:** 
 - 🇬🇧 [English](docs/en/README.md)
 - 🇫🇷 **Français**
-- 🇪🇸 [Español](docs/es/README.md)
-- 🇩🇪 [Deutsch](docs/de/README.md)
 
 ---
 
