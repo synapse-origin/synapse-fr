@@ -7,19 +7,26 @@
 
 ## 🎯 VISION
 
-SYNAPSE est un système d'organisation où l'intelligence est distribuée entre humains et agents IA, permettant une adaptation continue sans dépendre de rituels fixes ou de hiérarchies rigides.
+SYNAPSE est le **successeur des frameworks agiles** pour l'ère de l'IA.
 
-**Ce que SYNAPSE n'est pas :**
-- Un processus de gestion de projet
-- Un remplacement des humains
-- Un outil de surveillance
-- Une nouvelle bureaucratie
+Là où Scrum, Kanban et SAFe ont structuré la collaboration humaine, 
+SYNAPSE structure la collaboration **humains + IA** pour des organisations 
+qui doivent s'adapter en continu, pas en cycles fixes.
 
-**Ce que SYNAPSE est :**
-- Un système cognitif distribué
-- Une architecture socio-technique adaptative
-- Un modèle de gouvernance hybride
-- Une plateforme d'intelligence collective
+**SYNAPSE remplace :**
+- Les sprints → par l'adaptation continue
+- Le daily standup → par la détection automatique de blocages
+- La retrospective → par l'analyse de patterns en temps réel
+- Le planning poker → par la simulation prédictive
+
+**SYNAPSE conserve :**
+- La livraison incrémentale de valeur
+- L'auto-organisation des équipes
+- Le feedback client rapide
+- L'amélioration continue
+
+**Transition progressive :** Vous pouvez migrer graduellement 
+depuis votre framework actuel. [Voir le guide de transition](docs/transition-guide.md)
 
 ---
 
