@@ -10,14 +10,17 @@ SYNAPSE est un framework d'organisation où humains et intelligences artificiell
 
 ### En quoi c'est différent de l'agilité (Scrum, Kanban, SAFe) ?
 
-| Aspect | Agilité Classique | SYNAPSE |
-|--------|------------------|---------|
-| Décisions | Humains seuls | Humains + IA |
-| Adaptation | Cycles fixes (sprints) | Continue (temps réel) |
-| Mémoire | Documentation manuelle | Graphe de connaissances auto-généré |
-| Coordination | Rituels humains (daily, retro) | Détection automatique + intervention ciblée |
+SYNAPSE est le **successeur** de ces frameworks, pas un complément.
 
-SYNAPSE ne remplace pas l'agilité, il la fait évoluer pour l'ère de l'IA.
+| Aspect | Agilité Classique | SYNAPSE | Pourquoi c'est mieux |
+|--------|------------------|---------|----------------------|
+| **Décisions** | Humains seuls | Humains + IA | Décisions éclairées par simulation et mémoire |
+| **Adaptation** | Cycles fixes (sprints) | Continue (temps réel) | Réaction en heures, pas en semaines |
+| **Mémoire** | Documentation manuelle | Graphe auto-généré | Plus de "on avait déjà essayé ça" |
+| **Coordination** | Rituels humains (daily) | Détection automatique | Interventions ciblées, pas réunions systématiques |
+| **Patterns** | Retrospective tous les 15j | Analyse continue | Problèmes détectés en jours, pas en mois |
+
+**L'agilité a 24 ans.** Elle a été conçue avant l'IA, avant les LLMs, avant les bases vectorielles. SYNAPSE intègre ces technologies dès sa conception.
 
 ### Pourquoi créer un nouveau framework ?
 
