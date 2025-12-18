@@ -4,6 +4,35 @@ Ce guide vous accompagne pas à pas pour implémenter SYNAPSE dans votre organis
 
 ---
 
+## SYNAPSE vs Frameworks Agiles
+
+**SYNAPSE n'est pas un add-on à Scrum.** C'est son successeur.
+
+### Ce que SYNAPSE remplace
+
+| Scrum | → | SYNAPSE |
+|-------|---|---------|
+| Sprint Planning (2-4h) | → | Intent Sync (30-45min/sem) |
+| Daily Standup (15min × 5) | → | Coordination Agent (détection auto) |
+| Sprint Review | → | Déploiement continu + métriques |
+| Retrospective | → | Pattern Review (continue) |
+| Product Owner | → | Intent Architect |
+| Scrum Master | → | System Orchestrator |
+
+### Gain de temps
+```
+Scrum :    7h15/semaine en rituels (18% du temps)
+SYNAPSE :  3h50/semaine en boucles (9.5% du temps)
+           ────────────────────────────────────
+           Gain : 47% de temps libéré pour produire
+```
+
+### Migration depuis Scrum
+
+Vous n'avez pas besoin de tout changer d'un coup. [Guide de transition →](docs/transition-guide.md)
+
+---
+
 ## Avant de Commencer
 
 ### Pré-requis Organisationnels
