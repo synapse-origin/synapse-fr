@@ -15,17 +15,19 @@
 
 ## 🎯 Pourquoi SYNAPSE ?
 
-L'agilité classique — Scrum, Kanban, SAFe — a fluidifié la livraison.
-Mais elle ne suffit plus pour :
+**L'agilité a 24 ans.** Scrum, Kanban, SAFe ont transformé la façon de livrer du logiciel. Mais ils ont été conçus avant l'IA.
 
-- Tirer parti de l'IA
-- Coordonner des flux simultanés
-- Capter les signaux faibles
-- Réduire la charge cognitive des équipes
-- Accélérer la prise de décision
-- Rendre les organisations réellement apprenantes
+SYNAPSE est le **framework post-agile** pour les organisations qui veulent :
 
-**SYNAPSE propose l'Agilité Cognitive** : une organisation où humains et IA collaborent dans un flux structuré, soutenu par des agents cognitifs.
+| Limite de l'agilité classique | Solution SYNAPSE |
+|-------------------------------|------------------|
+| Rituels fixes même quand inutiles | Interventions déclenchées par événements |
+| Mémoire dans la tête des gens | Graphe de connaissances auto-alimenté |
+| Patterns détectés en retrospective (trop tard) | Détection continue en temps réel |
+| Estimations au doigt mouillé | Simulation prédictive |
+| Coordination par réunions | Coordination par agents IA |
+
+**SYNAPSE ne complète pas Scrum. Il le remplace.**
 
 ---
 
