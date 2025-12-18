@@ -235,25 +235,33 @@ SYNAPSE **augmente** les capacités humaines, ne les remplace pas.
 
 ### Faut-il abandonner Scrum/Kanban pour utiliser SYNAPSE ?
 
-**Non.** SYNAPSE peut coexister avec l'existant :
+**Oui, progressivement.** SYNAPSE est conçu pour remplacer les frameworks agiles existants, pas pour s'y ajouter.
 
-**Phase 1 (Hybride) :**
-- Gardez vos sprints Scrum
-- Ajoutez Memory Agent pour capturer les décisions
-- Pattern Agent détecte les inefficacités
-- Ajustez progressivement
+**Pourquoi remplacer plutôt que compléter ?**
+- Scrum a été conçu avant l'IA — ses rituels compensent l'absence de mémoire et de détection automatique
+- Ajouter SYNAPSE à Scrum = double charge (rituels + agents)
+- Les boucles SYNAPSE rendent les cérémonies Scrum redondantes
 
-**Phase 2 (Transition) :**
-- Réduisez certains rituels (ex: daily devient optionnel)
-- Augmentez l'autonomie des agents
-- Les boucles SYNAPSE remplacent certaines cérémonies
+**Transition recommandée :**
 
-**Phase 3 (SYNAPSE pur) :**
-- Sprints disparaissent (adaptation continue)
-- Les rôles Scrum évoluent vers rôles SYNAPSE
-- Le système fonctionne en autonomie
+| Phase | Durée | Ce qui change |
+|-------|-------|---------------|
+| **1. Hybride** | Mois 1-2 | Gardez vos sprints, ajoutez Memory Agent. Observez les redondances. |
+| **2. Allègement** | Mois 3-4 | Supprimez le daily (Coordination Agent détecte). Réduisez les retros (Pattern Agent analyse). |
+| **3. Remplacement** | Mois 5-6 | Les sprints deviennent optionnels. Les boucles SYNAPSE pilotent. |
+| **4. SYNAPSE pur** | Mois 7+ | Plus de cérémonies Scrum. Flux continu + interventions ciblées. |
 
-Chaque organisation choisit son rythme.
+**Ce que vous gardez de l'agilité :**
+- Livraison incrémentale
+- Auto-organisation
+- Feedback rapide
+- Amélioration continue
+
+**Ce que vous abandonnez :**
+- Cycles fixes (sprints)
+- Rituels calendaires (daily, retro, planning)
+- Estimation manuelle (planning poker)
+- Documentation manuelle des décisions
 
 ### Peut-on utiliser SYNAPSE pour un seul projet, pas toute l'organisation ?
 
