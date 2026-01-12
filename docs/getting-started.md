@@ -1,16 +1,6 @@
 # 🚀 Guide d'Implémentation SYNAPSE
 
-Ce guide vous accompagne pas à pas pour implémenter SYNAPSE dans votre organisation.
-
----
-
-## 📍 État Actuel
-
-**SYNAPSE V1.0 est opérationnel** avec :
-- ✅ 4 agents IA en production
-- ✅ Dashboard métriques complet
-- ✅ Ethics compliance system
-- ✅ API Gateway TypeScript/Fastify
+Ce guide vous accompagne pour implémenter SYNAPSE dans votre organisation.
 
 ---
 
@@ -23,63 +13,11 @@ Ce guide vous accompagne pas à pas pour implémenter SYNAPSE dans votre organis
 - [ ] **Ouverture à l'expérimentation** : Accepter l'échec comme apprentissage
 - [ ] **Temps dédié** : ~20% pendant phase d'adoption
 
-### Pré-requis Techniques
-
-- [ ] Node.js 18+
-- [ ] PostgreSQL 15+ avec extension pgvector
-- [ ] Redis 7+
-- [ ] Ollama (pour embeddings locaux) ou API LLM externe
-
 ### Pré-requis Humains
 
 - [ ] 4 personnes identifiées pour les rôles SYNAPSE
-- [ ] Disponibilité : ~20% temps pendant phase d'adoption
-- [ ] Formation : 1-2 jours de préparation
-
----
-
-## 🏗️ Stack Technique V1
-
-### Architecture
-
-```
-Frontend (React/Tailwind)
-         │
-         ▼
-API Gateway (Fastify/TypeScript)
-         │
-         ▼
-┌────────┼────────┐
-│   4 Agents IA   │
-└────────┼────────┘
-         │
-         ▼
-PostgreSQL + pgvector + Redis
-```
-
-### Technologies
-
-| Composant | Technologie | Rôle |
-|-----------|-------------|------|
-| API | TypeScript / Fastify | Routes, validation |
-| ORM | Prisma | Accès données |
-| BDD | PostgreSQL + pgvector | Données + recherche sémantique |
-| Queue | Bull / Redis | Jobs asynchrones |
-| LLM Chat | 1min.ai ou autre | Raisonnement |
-| LLM Embeddings | Ollama local | Vectorisation |
-| Frontend | React / Tailwind | Interface |
-
-### Coût Estimé
-
-**Infrastructure minimale :**
-- Serveur : 50-100€/mois (ou hardware local)
-- LLM API : 50-200€/mois selon usage
-- **Total : ~100-300€/mois**
-
-**Option souveraine (tout local) :**
-- Hardware one-time : ~500€
-- LLM : Ollama gratuit
-- **Coût récurrent : ~0€** (hors électricité)
+- [ ] Disponibilité pour la formation initiale (1-2 jours)
+- [ ] Engagement sur 3-6 mois minimum
 
 ---
 
@@ -89,12 +27,14 @@ PostgreSQL + pgvector + Redis
 
 **Identifier les 4 rôles :**
 
-| Rôle | Profil Idéal |
-|------|--------------|
-| **Intent Architect** | Leader stratégique, vision claire |
-| **Ethical Guardian** | Sens critique, indépendance d'esprit |
-| **System Orchestrator** | Tech lead, vision systémique |
-| **Sovereign Maker** | Expert métier, orienté résultat |
+| Rôle | Profil Idéal | Qualités Clés |
+|------|--------------|---------------|
+| **Intent Architect** | Leader stratégique | Vision, assertivité |
+| **Ethical Guardian** | Esprit critique | Intégrité, courage |
+| **System Orchestrator** | Tech lead | Vision systémique |
+| **Sovereign Maker** | Expert métier | Pragmatisme, résultat |
+
+👉 [Détails des rôles](../framework/roles.md)
 
 ### Étape 2 : Rédiger l'Intent Statement
 
@@ -103,234 +43,185 @@ Utilisez le [template](../templates/intent-statement.md) pour formaliser :
 1. **Objectif principal** (1-2 phrases)
 2. **3-5 objectifs stratégiques** mesurables
 3. **Contraintes non-négociables**
-4. **Hors scope**
+4. **Hors scope** (ce qu'on ne fait PAS)
 5. **Critères de succès**
 
 ### Étape 3 : Établir la Baseline
 
-**Mesurer AVANT SYNAPSE :**
-- Temps de cycle (idée → production)
+**Mesurer AVANT de démarrer :**
+- Temps de cycle moyen (idée → production)
 - Taux de bugs en production
 - Satisfaction équipe (1-10)
-- Temps passé en réunions
+- Temps passé en réunions par semaine
+- Fréquence des "on avait déjà essayé ça"
 
-### Étape 4 : Déployer la Stack
-
-```bash
-# 1. Cloner le repository
-git clone https://github.com/synapse-origin/synapse-platform.git
-cd synapse-platform
-
-# 2. Configuration
-cp .env.example .env
-# Éditer .env avec vos paramètres
-
-# 3. Base de données
-docker-compose up -d postgres redis
-npx prisma migrate deploy
-
-# 4. Ollama (embeddings locaux)
-ollama pull nomic-embed-text
-
-# 5. Démarrage
-npm install
-npm run build
-npm run start
-```
+Ces mesures serviront à quantifier l'impact de SYNAPSE.
 
 ---
 
-## Phase 1 : Memory Agent (Semaine 3-4)
+## Phase 1 : Les Fondations (Semaine 3-6)
 
-### Objectif
-Construire la mémoire organisationnelle.
+### Activer les Rôles
 
-### Actions
+Chaque rôle commence à exercer ses responsabilités :
 
-**1. Configurer les sources**
-- Connecter les webhooks (Git, Slack si souhaité)
-- Configurer l'API pour capture manuelle
+**Intent Architect**
+- Anime le premier Intent Sync
+- S'assure que l'intention est comprise par tous
 
-**2. Commencer à capturer**
-- Chaque décision importante → API `/decisions`
-- Utiliser le [template decision-record](../templates/decision-record.md)
+**Ethical Guardian**
+- Établit la charte éthique
+- Définit les garde-fous
 
-**3. Rituel quotidien**
-- 5-10 min par décision capturée
-- Vérifier la qualité des données
+**System Orchestrator**
+- Prépare l'infrastructure (si agents utilisés)
+- Configure les premières alertes
+
+**Sovereign Maker**
+- Commence à documenter les décisions
+- Utilise les templates
+
+### Démarrer les Boucles
+
+**Intent Sync (Hebdomadaire)**
+- Même jour, même heure chaque semaine
+- 30-45 minutes maximum
+- Tous les rôles présents
+
+**Pattern Review (Continue)**
+- Chaque blocage récurrent est noté
+- Discussion hebdomadaire des patterns observés
 
 ### Validation Phase 1
-- [ ] 20+ décisions documentées
-- [ ] Recherche sémantique fonctionnelle
-- [ ] Équipe utilise le système quotidiennement
+
+- [ ] 4 rôles actifs et formés
+- [ ] Intent Statement formalisé et partagé
+- [ ] Premier Intent Sync réalisé
+- [ ] Templates de décision utilisés
 
 ---
 
-## Phase 2 : Pattern Agent (Semaine 5-8)
+## Phase 2 : Avec les Agents (Semaine 7-12)
 
-### Objectif
-Détecter et traiter les patterns récurrents.
+*Cette phase nécessite l'accès aux agents SYNAPSE (Cloud ou Enterprise).*
 
-### Actions
+### Activation Progressive
 
-**1. Définir les patterns critiques**
-Identifier 3-5 patterns prioritaires à surveiller.
+**Semaine 7-8 : Memory Agent**
+- Commencer à capturer les décisions
+- Tester la recherche contextuelle
+- Vérifier la détection de contradictions
 
-**2. Configurer les alertes**
-- Seuils de déclenchement
-- Canaux de notification
+**Semaine 9-10 : Pattern Agent**
+- Configurer les alertes prioritaires
+- Observer les premiers patterns détectés
+- Réagir aux alertes
 
-**3. Pattern Review hebdomadaire**
-Nouveau rituel (15-30 min) :
-1. Pattern Agent présente les patterns
-2. Discussion : problème ou opportunité ?
-3. Décision : action ou observation
-4. Suivi
+**Semaine 11-12 : Simulation + Coordination**
+- Utiliser la simulation pour une décision majeure
+- Observer les suggestions de coordination
+- Ajuster les paramètres
 
 ### Validation Phase 2
-- [ ] 3+ patterns détectés avec données
-- [ ] 1+ action corrective implémentée
-- [ ] Équipe réagit aux alertes
+
+- [ ] Agents utilisés quotidiennement
+- [ ] Premiers patterns traités
+- [ ] Au moins 1 décision simulée
+- [ ] Équipe à l'aise avec le système
 
 ---
 
-## Phase 3 : Simulation Agent (Semaine 9-12)
+## Phase 3 : Optimisation (Continue)
 
-### Objectif
-Améliorer la qualité des décisions par simulation.
+### Mesurer l'Impact
 
-### Actions
+Comparer avec la baseline :
 
-**1. Identifier les décisions simulables**
-- Choix technologiques
-- Investissements
-- Changements organisationnels
+| Métrique | Avant | Après 3 mois | Cible |
+|----------|-------|--------------|-------|
+| Temps de cycle | ? | ? | -20% |
+| Temps réunions | ? | ? | -30% |
+| Satisfaction | ? | ? | +1 point |
 
-**2. Protocole de simulation**
-```
-1. Formuler clairement la décision
-2. Appeler POST /simulations
-3. Analyser les scénarios (30-60 min)
-4. Décider et documenter
-5. Suivi à M+1 : prédiction vs réalité
-```
+### Ajuster
 
-**3. Apprentissage continu**
-Comparer systématiquement prédictions et résultats.
+- Affiner les seuils d'alerte
+- Adapter la fréquence des boucles
+- Former les nouveaux arrivants
 
-### Validation Phase 3
-- [ ] 5+ décisions simulées
-- [ ] Comparaison prédiction/réalité documentée
-- [ ] Équipe utilise spontanément
+### Documenter
+
+- Rédiger une étude de cas
+- Partager les apprentissages
+- Contribuer à la communauté
 
 ---
 
-## Phase 4 : Système Complet (Semaine 13-16)
-
-### Objectif
-Activation de tous les agents + Intent Sync.
-
-### Actions
-
-**1. Activer Coordination Agent**
-- Détection blocages automatique
-- Suggestions de réorganisation
-
-**2. Configurer Intent Sync**
-- Fréquence : hebdomadaire
-- Participants : tous les rôles
-- Durée : 30-45 min
-
-**3. Dashboard complet**
-- 11 métriques cognitives visibles
-- Alertes configurées
-- Historique accessible
-
-### Validation Phase 4
-- [ ] 4 agents utilisés régulièrement
-- [ ] Intent Sync hebdomadaire établi
-- [ ] Métriques suivies et discutées
-
----
-
-## 📊 Métriques de Succès
+## 📊 Critères de Succès
 
 ### Après 3 Mois
 - [ ] 4 rôles opérationnels
-- [ ] 2+ agents produisent de la valeur
-- [ ] Équipe veut continuer
+- [ ] Boucles régulières établies
+- [ ] Équipe autonome sur le framework
 
 ### Après 6 Mois
-- [ ] 3+ métriques améliorées vs baseline
-- [ ] Temps de cycle réduit 20%+
-- [ ] Charge cognitive stable ou baisse
+- [ ] Métriques améliorées vs baseline
+- [ ] Patterns récurrents traités
+- [ ] Charge cognitive stable ou en baisse
 
 ### Après 12 Mois
 - [ ] Système autonome
-- [ ] 1+ métrique business +30%
+- [ ] Gains business mesurables
 - [ ] Confiance système > 70%
 
 ---
 
 ## 🚧 Gérer les Obstacles
 
-### Résistance au changement
-**Solutions :**
-- Communication transparente
-- Impliquer tôt dans la conception
-- Montrer que l'IA aide, ne remplace pas
-- Célébrer les victoires
+### Résistance au Changement
 
-### Problèmes techniques
-**Solutions :**
-- Démarrer minimal
-- Monitoring rigoureux
-- Plan de rollback prêt
+**Symptômes** : "On a toujours fait comme ça", scepticisme
 
-### Dérive éthique
-**Solutions :**
-- Ethical Guardian actif
-- Audits réguliers (automatisés)
-- Transparence totale
+**Solutions** :
+- Commencer avec des volontaires
+- Montrer des résultats concrets rapidement
+- Impliquer dans la co-construction
 
----
+### Surcharge Initiale
 
-## 📋 Checklist Complète
+**Symptômes** : "Encore un truc en plus à faire"
 
-### Avant de Lancer
-- [ ] 4 rôles identifiés et formés
-- [ ] Intent Statement formalisé
-- [ ] Stack technique déployée
-- [ ] Baseline établie
+**Solutions** :
+- Remplacer, pas ajouter (moins de réunions classiques)
+- Automatiser ce qui peut l'être
+- Réduire le scope initial
 
-### Après 3 Mois
-- [ ] 4 agents en usage
-- [ ] Intent Sync régulier
-- [ ] Patterns traités
-- [ ] Métriques suivies
+### Perte de Momentum
 
-### Après 6 Mois
-- [ ] Gains mesurables
-- [ ] Équipe autonome
-- [ ] Processus rodé
+**Symptômes** : Boucles sautées, templates non utilisés
+
+**Solutions** :
+- Intent Architect relance régulièrement
+- Célébrer les petites victoires
+- Rendre les bénéfices visibles
 
 ---
 
 ## 🆘 Besoin d'Aide ?
 
-- 💬 [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
-- 📧 synapse-origin@proton.me
+### Ressources
+
 - 📚 [Documentation complète](../framework/SYNAPSE-V1.md)
+- ❓ [FAQ](../community/faq.md)
+- 💬 [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
 
----
-
-## 🤝 Devenir Organisation Pilote
+### Devenir Organisation Pilote
 
 Vous voulez implémenter SYNAPSE avec un accompagnement ?
 
 **Ce qu'on offre :**
+- Accès aux agents
 - Support direct
-- Accès prioritaire aux évolutions
 - Co-construction du framework
 
 **Ce qu'on demande :**
@@ -346,5 +237,4 @@ Vous voulez implémenter SYNAPSE avec un accompagnement ?
 
 ---
 
-*Guide d'implémentation SYNAPSE V1*  
-*Dernière mise à jour : Janvier 2026*
+*Guide d'implémentation SYNAPSE — Janvier 2026*
