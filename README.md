@@ -2,7 +2,6 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE.md)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
-[![Agents](https://img.shields.io/badge/agents-4%2F4%20opérationnels-brightgreen.svg)]()
 [![Docs](https://img.shields.io/badge/docs-complet-green.svg)](framework/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -19,131 +18,77 @@ SYNAPSE est le **framework post-agile** pour les organisations qui veulent :
 | Limite de l'agilité classique | Solution SYNAPSE |
 | --- | --- |
 | Rituels fixes même quand inutiles | Interventions déclenchées par événements |
-| Mémoire dans la tête des gens | Graphe de connaissances auto-alimenté |
-| Patterns détectés en retrospective (trop tard) | Détection continue en temps réel |
-| Estimations au doigt mouillé | Simulation prédictive |
-| Coordination par réunions | Coordination par agents IA |
-
-**SYNAPSE ne complète pas Scrum. Il le remplace.**
+| Mémoire dans la tête des gens | Mémoire organisationnelle persistante |
+| Patterns détectés en rétro (trop tard) | Détection continue en temps réel |
+| Estimations au doigt mouillé | Simulation de scénarios |
+| Coordination par réunions | Coordination intelligente |
 
 ---
 
-## 🚀 État du Projet
+## 🧠 La Promesse
 
-### ✅ V1 Opérationnelle
-
-| Composant | Statut |
-|-----------|--------|
-| Memory Agent | ✅ Opérationnel |
-| Pattern Agent | ✅ Opérationnel |
-| Simulation Agent | ✅ Opérationnel |
-| Coordination Agent | ✅ Opérationnel |
-| Dashboard Métriques | ✅ Opérationnel |
-| Ethics Compliance | ✅ Opérationnel |
-| API Gateway (TypeScript/Fastify) | ✅ Opérationnel |
-| Frontend React | ✅ Opérationnel |
-
-### 🔄 Prochaines étapes
-- Recherche d'organisations pilotes
-- Validation terrain (2026)
-- Publication académique
+* **Améliorer la qualité des décisions** — grâce à la simulation et au contexte historique
+* **Réduire la charge mentale** — les agents gèrent la complexité
+* **Accélérer l'apprentissage** — les patterns sont détectés et partagés automatiquement
+* **Aligner intention et action** — vérification continue de la cohérence
 
 ---
 
-## 🧠 La promesse
-
-* Améliorer la qualité des décisions
-* Réduire la charge mentale
-* Accélérer l'apprentissage organisationnel
-* Aligner l'intention, l'action et l'impact
-
----
-
-## 🔗 4 piliers fondamentaux
+## 🔗 4 Piliers Fondamentaux
 
 | Pilier | Description |
 | --- | --- |
-| **Intentionnalité** | Chaque initiative démarre par une intention claire, explicite et contextualisée |
-| **Agents cognitifs** | Des agents IA épaulent les équipes dans l'analyse, la détection et la structuration |
-| **Boucles rapides** | L'organisation fonctionne en micro-boucles décisionnelles continues |
-| **Patterns** | L'expérience accumulée nourrit une bibliothèque vivante réutilisable |
+| **Intentionnalité** | Chaque initiative démarre par une intention claire et partagée |
+| **Agents Cognitifs** | Des IA dédiées augmentent les capacités humaines |
+| **Boucles Rapides** | Adaptation continue, pas de cycles fixes |
+| **Patterns Vivants** | L'expérience nourrit une bibliothèque réutilisable |
 
 ---
 
-## 🧩 Comment ça marche ?
+## 🤖 Les 4 Agents IA
 
-```
-        ______________________________
-       ↓                             |
-Intent (Intention claire)            |
-       ↓                             |
-Observation & Analyse (Agents IA)    |
-       ↓                             |
-Décisions humaines augmentées        |
-       ↓                             |
-Action & Coordination                |
-       ↓                             |
-Feedback & Apprentissage             |
-       ↓                             |
-Patterns & Mémoire organisationnelle |
-       |_____________________________|
-```
-
-**Les humains restent au centre.**
-Les agents IA élargissent le champ, accélèrent, augmentent, sécurisent.
-
----
-
-## 🤖 Les 4 agents SYNAPSE
-
-| Agent | Fonction | Statut |
+| Agent | Ce qu'il fait | Bénéfice |
 | --- | --- | --- |
-| **Memory** | Mémoire organisationnelle, graphe de connaissances | ✅ Opérationnel |
-| **Pattern** | Détection de récurrences et signaux faibles | ✅ Opérationnel |
-| **Simulation** | Anticipation, scénarios avec probabilités | ✅ Opérationnel |
-| **Coordination** | Optimisation des flux, détection de blocages | ✅ Opérationnel |
+| 🧠 **Memory** | Capture et restitue la connaissance collective | Ne plus répéter les mêmes erreurs |
+| 🔍 **Pattern** | Détecte les récurrences et signaux faibles | Réagir 10x plus vite |
+| 🎲 **Simulation** | Génère des scénarios pour chaque décision | Décider en connaissance de cause |
+| 🔗 **Coordination** | Optimise les flux, détecte les blocages | Éliminer les frictions invisibles |
 
-👉 [Spécifications complètes](framework/agents.md)
-
----
-
-## 🏗️ Stack Technique
-
-Une architecture légère, souveraine, déployable sur votre infrastructure.
-
-| Composant | Technologie |
-|-----------|-------------|
-| API Gateway | TypeScript / Fastify |
-| ORM | Prisma |
-| Base de données | PostgreSQL + pgvector |
-| LLM | Ollama local ou API externe |
-| Frontend | React / Tailwind |
-| Queue | Bull / Redis |
-
-💡 **Proof of concept** : La V1 complète tourne sur hardware minimal — preuve que SYNAPSE reste léger même avec 4 agents IA actifs.
+👉 [Détails des agents](framework/agents.md)
 
 ---
 
-## 🚀 Démarrer en 5 étapes
+## 👥 Les 4 Rôles Humains
 
-**1. Définir une intention**
-→ Utilisez le template [Intent Statement](templates/intent-statement.md)
+| Rôle | Mission | Pouvoir |
+| --- | --- | --- |
+| 🎯 **Intent Architect** | Stratégie & Vision | Veto stratégique |
+| ⚖️ **Ethical Guardian** | Éthique & Intégrité | Veto éthique |
+| 🎛️ **System Orchestrator** | Configuration | Paramétrage système |
+| 🛠️ **Sovereign Maker** | Exécution | Acceptation/Refus |
 
-**2. Mettre en place les 4 rôles**
-→ Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker
-→ [Détails des rôles](framework/roles.md)
+👉 [Détails des rôles](framework/roles.md)
 
-**3. Activer les 3 boucles**
-→ Intent Sync, Pattern Review, Decision Moment
-→ [Détails des boucles](framework/loops.md)
+---
 
-**4. Documenter les décisions**
-→ [Decision Record](templates/decision-record.md) | [Pattern Report](templates/pattern-report.md)
+## 🔄 Les 3 Boucles
 
-**5. Mesurer avec les 11 métriques**
-→ [Métriques cognitives](framework/metrics.md)
+| Boucle | Fréquence | Objectif |
+| --- | --- | --- |
+| 🎯 **Intent Sync** | Hebdomadaire | Alignement stratégique |
+| 🔍 **Pattern Review** | Continue | Traiter les récurrences |
+| ⚡ **Decision Moment** | À la demande | Décisions majeures |
 
-👉 [Guide d'implémentation complet](docs/getting-started.md)
+👉 [Détails des boucles](framework/loops.md)
+
+---
+
+## 🚀 Démarrer
+
+1. **Comprendre** — [SYNAPSE V1](framework/SYNAPSE-V1.md) (15 min)
+2. **Approfondir** — [Guide d'implémentation](docs/getting-started.md)
+3. **Pratiquer** — [Templates](templates/)
+4. **Échanger** — [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
 
 ---
 
@@ -168,13 +113,13 @@ Une architecture légère, souveraine, déployable sur votre infrastructure.
 | --- | --- | --- |
 | Framework & Documentation | CC BY-SA 4.0 | Ce repository |
 | Templates & Guides | CC BY-SA 4.0 | Ce repository |
-| Agents IA | Propriétaire | SYNAPSE Cloud |
+| Agents IA | Propriétaire | SYNAPSE Cloud / Enterprise |
 
-**Le framework est entièrement documenté et utilisable.**
+**Le framework conceptuel est entièrement ouvert.** Vous pouvez implémenter les rôles, boucles et métriques dès maintenant.
 
-Les agents IA sont disponibles via :
-* **SYNAPSE Cloud** — Service managé *(bientôt disponible)*
-* **SYNAPSE Enterprise** — Déploiement on-premise
+**Les agents IA** accélèrent et amplifient les bénéfices. Disponibles via :
+- **SYNAPSE Cloud** — Service managé *(bientôt)*
+- **SYNAPSE Enterprise** — Sur votre infrastructure
 
 📧 Contact : synapse-origin@proton.me
 
@@ -193,7 +138,7 @@ Les contributions sont ouvertes sur la documentation et les templates.
 
 ## 🌐 Vision
 
-SYNAPSE aspire à devenir le premier framework d'agilité cognitive, un modèle de collaboration entre humains et IA, réconciliant vitesse, responsabilité et intelligence collective.
+SYNAPSE aspire à devenir le framework de référence pour les organisations hybrides humains-IA, réconciliant vitesse, responsabilité et intelligence collective.
 
 ---
 
