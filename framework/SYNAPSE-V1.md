@@ -1,11 +1,11 @@
 # SYNAPSE V1.0
-## Framework de l'agilité cognitive
+## Framework de l'Agilité Cognitive
 
 > **Architecture de co-évolution intelligente pour organisations hybrides (Humains + IA)**
 
 ---
 
-## 🎯 VISION
+## 🎯 Vision
 
 SYNAPSE est un système d'organisation où l'intelligence est distribuée entre humains et agents IA, permettant une adaptation continue sans dépendre de rituels fixes ou de hiérarchies rigides.
 
@@ -23,32 +23,7 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ---
 
-## 🚀 État du Projet
-
-### ✅ Composants Opérationnels (V1.0)
-
-| Composant | Description | Statut |
-|-----------|-------------|--------|
-| **Memory Agent** | Mémoire organisationnelle, graphe de connaissances | ✅ Production |
-| **Pattern Agent** | Détection de récurrences, alertes temps réel | ✅ Production |
-| **Simulation Agent** | Scénarios probabilistes, aide à la décision | ✅ Production |
-| **Coordination Agent** | Optimisation flux, détection blocages | ✅ Production |
-| **Dashboard Métriques** | 11 métriques cognitives visualisées | ✅ Production |
-| **Ethics Compliance** | Audits éthiques automatisés | ✅ Production |
-| **Intent Hierarchy** | Organisation → Équipe | ✅ Production |
-| **API Gateway** | TypeScript/Fastify/Prisma | ✅ Production |
-| **Frontend** | React/Tailwind, i18n FR/EN | ✅ Production |
-
-### 🔄 Prochaines Étapes
-
-- Recherche d'organisations pilotes
-- Validation terrain (2026)
-- Publication académique
-- SYNAPSE Cloud (option hébergée)
-
----
-
-## 🏗️ ARCHITECTURE EN 3 COUCHES
+## 🏗️ Architecture en 3 Couches
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -76,7 +51,7 @@ SYNAPSE est un système d'organisation où l'intelligence est distribuée entre 
 
 ---
 
-## 👥 LES 4 RÔLES HUMAINS
+## 👥 Les 4 Rôles Humains
 
 ### Intent Architect 🎯
 Définit et maintient l'intention stratégique : objectifs, contraintes, limites éthiques.
@@ -87,54 +62,54 @@ Surveille les dérives éthiques, audite les décisions IA, protège les droits 
 **Pouvoir** : Veto si dérive éthique.
 
 ### System Orchestrator 🎛️
-Configure et optimise le système cognitif : active/désactive agents, définit règles, maintient infrastructure.
+Configure et optimise le système cognitif : active/désactive agents, définit règles, maintient l'équilibre.
 **Pouvoir** : Configuration du système.
 
 ### Sovereign Maker 🛠️
 Matérialise les décisions dans le réel : code, produit, service.
 **Pouvoir** : Accepte/refuse selon faisabilité.
 
-👉 **[Descriptions complètes avec responsabilités, pouvoirs, exemples et antipatterns](roles.md)**
+👉 **[Descriptions complètes](roles.md)**
 
 ---
 
-## 🤖 LES 4 AGENTS IA
+## 🤖 Les 4 Agents IA
 
-| Agent | Mission | Statut |
-|-------|---------|--------|
-| **Memory Agent** 🧠 | Capture, structure et restitue la mémoire organisationnelle | ✅ Production |
-| **Pattern Agent** 🔍 | Détecte les récurrences (blocages, inefficacités, opportunités) | ✅ Production |
-| **Simulation Agent** 🎲 | Anticipe les conséquences de décisions (3-5 scénarios probabilistes) | ✅ Production |
-| **Coordination Agent** 🔗 | Optimise les flux de travail et d'information | ✅ Production |
+| Agent | Mission | Bénéfice Principal |
+|-------|---------|-------------------|
+| **Memory** 🧠 | Mémoire organisationnelle | Ne plus jamais oublier une décision |
+| **Pattern** 🔍 | Détection de récurrences | Identifier les problèmes 10x plus vite |
+| **Simulation** 🎲 | Anticipation des décisions | Décider en connaissance de cause |
+| **Coordination** 🔗 | Optimisation des flux | Éliminer les blocages invisibles |
 
-👉 **[Spécifications techniques complètes](agents.md)**
+Les agents **proposent**, les humains **décident**. Toujours.
 
----
-
-## 🔄 LES 3 BOUCLES
-
-### Intent Sync 🎯 (Hebdomadaire, 30-45 min)
-Vérifie l'alignement stratégique de l'organisation sur l'intention.
-**Participants** : Tous les rôles.
-**Output** : Intention validée ou ajustée + actions correctives.
-
-### Pattern Review 🔍 (Continue + Hebdo, 15-30 min par pattern)
-Examine les patterns détectés et décide des actions correctives.
-**Participants** : Concernés par le pattern + System Orchestrator.
-**Output** : Ignorer / Corriger / Expérimenter + plan d'action.
-
-### Decision Moment ⚡ (À la demande, 30 min - 2h)
-Prend une décision majeure éclairée par simulation et mémoire.
-**Participants** : Décideurs + Simulation Agent.
-**Output** : Décision formalisée + plan d'action + métriques suivi.
-
-👉 **[Déroulements détaillés avec exemples concrets](loops.md)**
+👉 **[Détails des agents](agents.md)**
 
 ---
 
-## 📊 LES 11 MÉTRIQUES COGNITIVES
+## 🔄 Les 3 Boucles
 
-**3 Catégories, 11 Métriques :**
+### Intent Sync 🎯 
+**Hebdomadaire, 30-45 min**
+
+Vérifie l'alignement stratégique. L'organisation reste-t-elle fidèle à son intention ?
+
+### Pattern Review 🔍 
+**Continue + synthèse hebdo, 15-30 min**
+
+Examine les patterns détectés et décide : ignorer, corriger, ou expérimenter.
+
+### Decision Moment ⚡ 
+**À la demande, 30 min - 2h**
+
+Prend une décision majeure éclairée par simulation et contexte historique.
+
+👉 **[Déroulements détaillés](loops.md)**
+
+---
+
+## 📊 Les 11 Métriques Cognitives
 
 ### Métriques Système (5)
 - Temps de cohérence
@@ -153,60 +128,14 @@ Prend une décision majeure éclairée par simulation et mémoire.
 - Qualité livrée
 - Coût d'adaptation
 
-👉 **[Définitions précises, cibles et comment mesurer](metrics.md)**
+👉 **[Définitions et cibles](metrics.md)**
 
 ---
 
-## 🏗️ STACK TECHNIQUE V1
-
-### Architecture
-
-```
-┌─────────────────────────────────────────────────┐
-│                   Frontend                       │
-│              React / Tailwind / i18n             │
-└─────────────────────────────────────────────────┘
-                        │
-┌─────────────────────────────────────────────────┐
-│               API Gateway                        │
-│         TypeScript / Fastify / Prisma           │
-└─────────────────────────────────────────────────┘
-                        │
-┌─────────────────────────────────────────────────┐
-│                 Agents IA                        │
-│   Memory │ Pattern │ Simulation │ Coordination  │
-└─────────────────────────────────────────────────┘
-                        │
-┌─────────────────────────────────────────────────┐
-│              Infrastructure                      │
-│  PostgreSQL + pgvector │ Redis/Bull │ Ollama    │
-└─────────────────────────────────────────────────┘
-```
-
-### Technologies
-
-| Composant | Technologie | Rôle |
-|-----------|-------------|------|
-| API Gateway | TypeScript / Fastify | Routes, auth, validation |
-| ORM | Prisma | Accès données typé, migrations |
-| Base de données | PostgreSQL + pgvector | Données + recherche sémantique |
-| Queue | Bull / Redis | Jobs asynchrones, scheduling |
-| LLM Chat | 1min.ai / API externe | Raisonnement, génération |
-| LLM Embeddings | Ollama (nomic-embed-text) | Vectorisation locale |
-| Frontend | React / Tailwind | Interface utilisateur |
-| Auth | JWT + API Keys | Sécurité |
-
-### Déploiement
-
-- **On-premise** : Fonctionne sur hardware minimal
-- **Cloud privé** : Compatible toute infrastructure
-- **Souveraineté** : Aucune dépendance cloud US obligatoire
-
----
-
-## ⚖️ GOUVERNANCE ÉTHIQUE
+## ⚖️ Gouvernance Éthique
 
 **8 Principes non-négociables :**
+
 1. Transparence algorithmique obligatoire
 2. Droit de veto humain
 3. Protection des données personnelles
@@ -216,85 +145,84 @@ Prend une décision majeure éclairée par simulation et mémoire.
 7. Consentement éclairé
 8. Responsabilité humaine
 
-**Charte des droits de l'employé :** Comprendre, contester, être protégé, déconnecter, apprendre, participer, refuser, auditer.
-
-👉 **[Charte éthique complète + comité d'éthique](ethics.md)**
+👉 **[Charte éthique complète](ethics.md)**
 
 ---
 
-## 🚀 DÉMARRAGE
+## 🚀 Démarrage
 
-### Pour les organisations
-
-**Phase 1 : Préparation** (2 semaines)
+### Phase 1 : Préparation (2 semaines)
 - Constituer les 4 rôles
 - Rédiger l'Intent Statement
-- Former l'équipe
+- Former l'équipe aux concepts
 
-**Phase 2 : Activation** (4-8 semaines)
+### Phase 2 : Activation (4-8 semaines)
 - Déployer les agents progressivement
 - Activer les 3 boucles
-- Mesurer les métriques
+- Commencer à mesurer
 
-**Phase 3 : Optimisation** (continue)
-- Ajuster les configurations
+### Phase 3 : Optimisation (continue)
+- Ajuster selon les retours
 - Traiter les patterns détectés
 - Améliorer continuellement
 
-👉 **[Guide d'implémentation détaillé](../docs/getting-started.md)**
+👉 **[Guide d'implémentation](../docs/getting-started.md)**
 
 ---
 
-## 🎯 CRITÈRES DE SUCCÈS
+## 🎯 Critères de Succès
 
 | Horizon | Validation |
 |---------|-----------|
-| **3 mois** | 4 rôles opérationnels, agents utilisés quotidiennement, premières décisions améliorées |
-| **6 mois** | 3+ métriques dans le vert, -20% temps cycle, patterns traités régulièrement |
-| **12 mois** | Système autonome, gains business mesurables, confiance système > 70% |
+| **3 mois** | 4 rôles opérationnels, agents utilisés quotidiennement |
+| **6 mois** | Métriques améliorées vs baseline, patterns traités |
+| **12 mois** | Système autonome, gains business mesurables |
 
 ---
 
-## 🌍 CONTRIBUTION
+## 📦 Modèle Open Core
 
-SYNAPSE est **open source** (CC BY-SA 4.0 pour la documentation).
+| Composant | Licence | Accès |
+|-----------|---------|-------|
+| Framework conceptuel | CC BY-SA 4.0 | Ce repository |
+| Documentation | CC BY-SA 4.0 | Ce repository |
+| Templates | CC BY-SA 4.0 | Ce repository |
+| Agents IA | Propriétaire | SYNAPSE Cloud / Enterprise |
 
-**Contribuer :** Tester, améliorer, partager, documenter
+**Le framework est entièrement documenté.** Vous pouvez implémenter les rôles, boucles et métriques sans les agents.
 
-👉 **[Guide de contribution](../CONTRIBUTING.md)**  
-👉 **[Communauté](../community/README.md)**
+**Les agents accélèrent et amplifient** les bénéfices du framework.
 
 ---
 
-## 📚 RESSOURCES
+## 🌍 Contribution
 
-**Framework :**
+Les contributions sont ouvertes sur la documentation et les templates.
+
+👉 **[Guide de contribution](../CONTRIBUTING.md)**
+
+---
+
+## 📚 Ressources
+
 - [Les 4 rôles humains](roles.md)
 - [Les 4 agents IA](agents.md)
 - [Les 3 boucles](loops.md)
 - [Les 11 métriques](metrics.md)
 - [Charte éthique](ethics.md)
 - [Flux continu](continuous-flow.md)
-
-**Guides pratiques :**
 - [Guide d'implémentation](../docs/getting-started.md)
 - [Templates](../templates/)
 - [FAQ](../community/faq.md)
-- [Glossaire](../docs/glossary.md)
 
 ---
 
-## 🎬 CONCLUSION
+## 📞 Contact
 
-SYNAPSE V1 est une plateforme complète et opérationnelle pour les organisations qui veulent dépasser l'agilité classique et co-évoluer avec l'IA.
-
-**Les 4 agents sont opérationnels. Le framework est documenté. La stack est production-ready.**
-
-Nous cherchons maintenant des organisations pilotes pour valider SYNAPSE en conditions réelles.
-
-📧 Contact : synapse-origin@proton.me
+**Questions générales** : synapse-origin@proton.me  
+**Devenir organisation pilote** : synapse-origin@proton.me  
+**GitHub** : [synapse-origin/synapse-fr](https://github.com/synapse-origin/synapse-fr)
 
 ---
 
-*Document vivant - Dernière mise à jour : Janvier 2026*  
-*Version : 1.0.0*
+*Document vivant — Dernière mise à jour : Janvier 2026*
