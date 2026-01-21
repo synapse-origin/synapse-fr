@@ -259,7 +259,7 @@ Nous encourageons la recherche académique sur SYNAPSE :
 - Support méthodologique
 - Co-publication possible
 
-**Contact** : research@synapse-origin.org
+**Contact** : synapse-origin@proton.me
 
 ---
 

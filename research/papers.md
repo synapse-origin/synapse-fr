@@ -37,7 +37,7 @@ Liste des papers académiques sur SYNAPSE.
 
 ## 📚 Comment Contribuer
 
-**Chercheurs** : Contactez research@synapse-origin.org
+**Chercheurs** : Contactez synapse-origin@proton.me
 
 **Données disponibles** :
 - Métriques anonymisées

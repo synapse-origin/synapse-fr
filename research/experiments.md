@@ -75,7 +75,7 @@ Liste des expériences en cours et complétées.
 - Financement : [Oui/Non]
 ```
 
-**Soumettre via** : research@synapse-origin.org
+**Soumettre via** : synapse-origin@proton.me
 
 ---
 

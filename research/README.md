@@ -78,7 +78,7 @@ Valider scientifiquement l'approche SYNAPSE et contribuer à la recherche sur :
 - Co-publication possible
 - Financement partiel selon projets
 
-**Contact** : research@synapse-origin.org
+**Contact** : synapse-origin@proton.me
 
 ---
 
