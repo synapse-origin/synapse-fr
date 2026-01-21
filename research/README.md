@@ -104,7 +104,7 @@ Valider scientifiquement l'approche SYNAPSE et contribuer à la recherche sur :
 
 ## 📞 Contact
 
-📧 research@synapse-origin.org  
+📧 synapse-origin@proton.me  
 💬 [Discussions GitHub](https://github.com/synapse-origin/synapse/discussions)
 
 ---

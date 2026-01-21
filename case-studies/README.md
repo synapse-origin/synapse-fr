@@ -284,7 +284,7 @@ Pour inspiration :
 
 **Questions sur les études de cas** : synapse-origin@proton.me  
 **Devenir organisation pilote** : synapse-origin@proton.me  
-**Partenariats recherche** : research@synapse-origin.org
+**Partenariats recherche** : synapse-origin@proton.me
 
 ---
 
