@@ -7,22 +7,22 @@ Navigation vers la documentation complète du framework.
 ## 🚀 Démarrage
 
 **Première fois ?**
-1. [Quick Start](quick-start.md) - 5 minutes
-2. [SYNAPSE V0.1](SYNAPSE-V0.1.md) - Référence complète
+1. [SYNAPSE V1](SYNAPSE-V1.md) - Vue d'ensemble (30 min)
+2. [Guide d'implémentation](../docs/getting-started.md) - Pas à pas
 
 ---
 
-## 📖 Sources de vérité
+## 📖 Sources de Vérité
 
-**Composants détaillés (tout y est) :**
+**Composants du framework :**
 
 - **[Les 4 rôles humains](roles.md)**  
   Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker  
   *Responsabilités, pouvoirs, exemples, antipatterns*
 
-- **[Les 4 agents IA](agents.md)**  
+- **[Les 4 agents cognitifs](agents.md)**  
   Memory, Pattern, Simulation, Coordination  
-  *Fonctions, capacités, stack technique, exemples code*
+  *Missions, garde-fous, prompts, interactions*
 
 - **[Les 3 boucles](loops.md)**  
   Intent Sync, Pattern Review, Decision Moment  
@@ -30,30 +30,36 @@ Navigation vers la documentation complète du framework.
 
 - **[Les 11 métriques](metrics.md)**  
   Système, Humaines, Valeur  
-  *Définitions, cibles, mesure, dashboard*
+  *Définitions, cibles, comment mesurer*
 
 - **[Charte éthique](ethics.md)**  
-  8 principes, droits employés, gouvernance  
+  8 principes, droits des employés, gouvernance  
   *Transparence, veto, protection, non-discrimination*
+
+- **[Flux continu](continuous-flow.md)**  
+  Comment SYNAPSE fonctionne sans cycles fixes  
+  *Comparaison avec Scrum, exemples de semaine type*
 
 ---
 
-## 🎯 Par profil
+## 🎯 Par Profil
 
 **🎓 Je découvre**  
-→ [Quick start](quick-start.md)
+→ [SYNAPSE V1](SYNAPSE-V1.md)  
+→ [FAQ](../community/faq.md)
 
 **💼 J'implémente**  
-→ [Guide implémentation](../docs/getting-started.md)  
-→ [Templates](../templates/)
+→ [Guide d'implémentation](../docs/getting-started.md)  
+→ [Templates](../templates/)  
+→ [Guide de transition](../docs/transition-guide.md)
 
 **🔬 J'approfondis**  
-→ [SYNAPSE V0.1](SYNAPSE-V0.1.md)  
-→ Sources de vérité ci-dessus
+→ Sources de vérité ci-dessus  
+→ [Glossaire](../docs/glossary.md)
 
-**💻 Je contribue**  
-→ [Architecture technique](agents.md)  
-→ [Code](../tools/)
+**🤝 Je contribue**  
+→ [Guide de contribution](../CONTRIBUTING.md)  
+→ [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
 
 ---
 
@@ -61,27 +67,35 @@ Navigation vers la documentation complète du framework.
 
 ```
 INTENTION (Humains)
-    ↓
+    │
+    │  Intent Architect définit le cap
+    │  Ethical Guardian pose les garde-fous
+    ▼
 COGNITION (IA + Humains)
-    ↓
+    │
+    │  Les 4 agents augmentent les capacités
+    │  Les humains gardent le contrôle
+    ▼
 EXÉCUTION (Humains + IA)
+    │
+    │  System Orchestrator pilote
+    │  Sovereign Makers matérialisent
+    ▼
+FEEDBACK (Boucles continues)
 ```
-
-**Détails :** [SYNAPSE V0.1](SYNAPSE-V0.1.md#architecture)
 
 ---
 
-## Synapse vs Agilité
+## ⚡ SYNAPSE vs Agilité
 
 | Aspect | Agile | SYNAPSE |
 |--------|-------|---------|
-| Décisions | Humains | Humains + IA |
+| Décisions | Humains seuls | Humains + IA |
 | Adaptation | Cycles fixes | Continue |
-| Mémoire | Documentation | Graphe auto |
-
-**Détails :** [Quick start](quick-start.md#différences)
+| Mémoire | Documentation manuelle | Persistante |
+| Coordination | Rituels | Événementielle |
 
 ---
 
 *Navigation Framework SYNAPSE*  
-*Dernière mise à jour : Novembre 2025*
+*Dernière mise à jour : Janvier 2026*
