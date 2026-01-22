@@ -31,7 +31,7 @@ Ce guide vous accompagne pour implémenter SYNAPSE dans votre organisation.
 |------|--------------|---------------|
 | **Intent Architect** | Leader stratégique | Vision, assertivité |
 | **Ethical Guardian** | Esprit critique | Intégrité, courage |
-| **System Orchestrator** | Tech lead | Vision systémique |
+| **System Orchestrator** | Tech lead ou ops | Vision systémique |
 | **Sovereign Maker** | Expert métier | Pragmatisme, résultat |
 
 👉 [Détails des rôles](../framework/roles.md)
@@ -74,8 +74,8 @@ Chaque rôle commence à exercer ses responsabilités :
 - Définit les garde-fous
 
 **System Orchestrator**
-- Prépare l'infrastructure (si agents utilisés)
-- Configure les premières alertes
+- Prépare l'infrastructure pour les agents (si utilisés)
+- Choisit les outils d'implémentation
 
 **Sovereign Maker**
 - Commence à documenter les décisions
@@ -103,7 +103,7 @@ Chaque rôle commence à exercer ses responsabilités :
 
 ## Phase 2 : Avec les Agents (Semaine 7-12)
 
-*Cette phase nécessite l'accès aux agents SYNAPSE (Cloud ou Enterprise).*
+*Cette phase nécessite d'implémenter les agents. Voir les [spécifications fonctionnelles](../framework/agents.md) pour les options d'implémentation.*
 
 ### Activation Progressive
 
@@ -124,7 +124,7 @@ Chaque rôle commence à exercer ses responsabilités :
 
 ### Validation Phase 2
 
-- [ ] Agents utilisés quotidiennement
+- [ ] Agents utilisés régulièrement
 - [ ] Premiers patterns traités
 - [ ] Au moins 1 décision simulée
 - [ ] Équipe à l'aise avec le système
@@ -220,9 +220,9 @@ Comparer avec la baseline :
 Vous voulez implémenter SYNAPSE avec un accompagnement ?
 
 **Ce qu'on offre :**
-- Accès aux agents
-- Support direct
+- Support et guidance
 - Co-construction du framework
+- Accès prioritaire aux évolutions
 
 **Ce qu'on demande :**
 - Feedback régulier
@@ -230,6 +230,12 @@ Vous voulez implémenter SYNAPSE avec un accompagnement ?
 - Partage des apprentissages
 
 📧 **Contact** : synapse-origin@proton.me
+
+---
+
+## 🔮 Implémentation de Référence
+
+Une solution d'implémentation SYNAPSE (cloud et on-premise) sera proposée pour les organisations souhaitant une mise en œuvre clé en main. En attendant, le framework est conçu pour être implémenté avec les outils de votre choix.
 
 ---
 
