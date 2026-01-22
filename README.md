@@ -5,7 +5,7 @@
 [![Docs](https://img.shields.io/badge/docs-complet-green.svg)](framework/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> **L'unification des humains et de l'IA pour des organisations plus intelligentes, adaptatives et responsables.**
+> **Le framework organisationnel pour structurer la collaboration humain-IA.**
 
 ---
 
@@ -13,132 +13,146 @@
 
 **L'agilité a 24 ans.** Scrum, Kanban, SAFe ont transformé la façon de livrer du logiciel. Mais ils ont été conçus avant l'IA.
 
-SYNAPSE est le **framework post-agile** pour les organisations qui veulent :
+SYNAPSE est le **framework post-agile** pour les organisations qui veulent intégrer l'IA dans leur fonctionnement — pas comme un outil, mais comme un mode d'organisation.
 
 | Limite de l'agilité classique | Solution SYNAPSE |
 | --- | --- |
 | Rituels fixes même quand inutiles | Interventions déclenchées par événements |
 | Mémoire dans la tête des gens | Mémoire organisationnelle persistante |
-| Patterns détectés en rétro (trop tard) | Détection continue en temps réel |
-| Estimations au doigt mouillé | Simulation de scénarios |
+| Patterns détectés en rétro (trop tard) | Détection continue |
+| Décisions au feeling | Simulation de scénarios |
 | Coordination par réunions | Coordination intelligente |
 
 ---
 
-## 🧠 La Promesse
+## 🧠 Ce que SYNAPSE Définit
 
-* **Améliorer la qualité des décisions** — grâce à la simulation et au contexte historique
-* **Réduire la charge mentale** — les agents gèrent la complexité
-* **Accélérer l'apprentissage** — les patterns sont détectés et partagés automatiquement
-* **Aligner intention et action** — vérification continue de la cohérence
+SYNAPSE n'est pas un outil. C'est un **cadre de référence** pour organiser la collaboration entre humains et IA.
 
----
+### 4 Rôles Humains
 
-## 🔗 4 Piliers Fondamentaux
+| Rôle | Responsabilité |
+|------|----------------|
+| **Intent Architect** | Définit la stratégie et l'intention |
+| **Ethical Guardian** | Garantit l'éthique et audite l'IA |
+| **System Orchestrator** | Configure et pilote le système |
+| **Sovereign Maker** | Exécute et matérialise |
 
-| Pilier | Description |
-| --- | --- |
-| **Intentionnalité** | Chaque initiative démarre par une intention claire et partagée |
-| **Agents Cognitifs** | Des IA dédiées augmentent les capacités humaines |
-| **Boucles Rapides** | Adaptation continue, pas de cycles fixes |
-| **Patterns Vivants** | L'expérience nourrit une bibliothèque réutilisable |
+👉 [Détail des rôles](framework/roles.md)
 
----
+### 4 Agents Cognitifs
 
-## 🤖 Les 4 Agents IA
+| Agent | Ce qu'il fait |
+|-------|---------------|
+| **Memory** | Mémoire organisationnelle — capture et restitue les décisions |
+| **Pattern** | Détection — identifie les récurrences positives et négatives |
+| **Simulation** | Anticipation — génère des scénarios pour éclairer les décisions |
+| **Coordination** | Optimisation — détecte les blocages et fluidifie les flux |
 
-| Agent | Ce qu'il fait | Bénéfice |
-| --- | --- | --- |
-| 🧠 **Memory** | Capture et restitue la connaissance collective | Ne plus répéter les mêmes erreurs |
-| 🔍 **Pattern** | Détecte les récurrences et signaux faibles | Réagir 10x plus vite |
-| 🎲 **Simulation** | Génère des scénarios pour chaque décision | Décider en connaissance de cause |
-| 🔗 **Coordination** | Optimise les flux, détecte les blocages | Éliminer les frictions invisibles |
+👉 [Spécifications des agents](framework/agents.md)
 
-👉 [Détails des agents](framework/agents.md)
+### 3 Boucles de Feedback
 
----
+| Boucle | Objectif | Fréquence |
+|--------|----------|-----------|
+| **Intent Sync** | Alignement stratégique | Hebdomadaire |
+| **Pattern Review** | Traiter les récurrences | Continue + Hebdo |
+| **Decision Moment** | Décisions majeures | À la demande |
 
-## 👥 Les 4 Rôles Humains
+👉 [Détail des boucles](framework/loops.md)
 
-| Rôle | Mission | Pouvoir |
-| --- | --- | --- |
-| 🎯 **Intent Architect** | Stratégie & Vision | Veto stratégique |
-| ⚖️ **Ethical Guardian** | Éthique & Intégrité | Veto éthique |
-| 🎛️ **System Orchestrator** | Configuration | Paramétrage système |
-| 🛠️ **Sovereign Maker** | Exécution | Acceptation/Refus |
+### 11 Métriques Cognitives
 
-👉 [Détails des rôles](framework/roles.md)
+Mesurer la santé d'une organisation hybride :
+- **Système** : Temps de cohérence, Taux d'adaptation, Mémoire active...
+- **Humaines** : Charge cognitive, Autonomie perçue, Confiance système
+- **Valeur** : Time to production, Qualité, Coût d'adaptation
 
----
-
-## 🔄 Les 3 Boucles
-
-| Boucle | Fréquence | Objectif |
-| --- | --- | --- |
-| 🎯 **Intent Sync** | Hebdomadaire | Alignement stratégique |
-| 🔍 **Pattern Review** | Continue | Traiter les récurrences |
-| ⚡ **Decision Moment** | À la demande | Décisions majeures |
-
-👉 [Détails des boucles](framework/loops.md)
+👉 [Toutes les métriques](framework/metrics.md)
 
 ---
 
-## 🚀 Démarrer
+## 🚀 Commencer
 
-1. **Comprendre** — [SYNAPSE V1](framework/SYNAPSE-V1.md) (15 min)
-2. **Approfondir** — [Guide d'implémentation](docs/getting-started.md)
-3. **Pratiquer** — [Templates](templates/)
-4. **Échanger** — [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
+### 1. Comprendre (30 min)
+
+- [SYNAPSE V1 — Vue d'ensemble](framework/SYNAPSE-V1.md)
+- [Manifeste](MANIFESTO.md)
+
+### 2. Structurer votre équipe
+
+- Identifier les 4 rôles → [Guide des rôles](framework/roles.md)
+- Rédiger votre Intent Statement → [Template](templates/intent-statement.md)
+
+### 3. Mettre en place les boucles
+
+- Remplacer vos rituels agiles → [Guide de transition](docs/transition-guide.md)
+- Adopter les 3 boucles → [Détail des boucles](framework/loops.md)
+
+### 4. Implémenter les agents (optionnel)
+
+Les agents peuvent être implémentés avec les outils de votre choix (LLMs, no-code, custom). 
+
+👉 [Spécifications fonctionnelles](framework/agents.md)
+
+---
+
+## 💡 SYNAPSE vs Agilité Classique
+
+| Aspect | Scrum/Kanban | SYNAPSE |
+|--------|--------------|---------|
+| **Décisions** | Humains seuls | Humains + IA |
+| **Adaptation** | Cycles fixes (sprints) | Continue |
+| **Mémoire** | Documentation manuelle | Persistante et active |
+| **Coordination** | Rituels (daily, retro) | Événementielle |
+| **Patterns** | Détectés en rétro | Temps réel |
+
+SYNAPSE ne complète pas l'agilité. Il la **remplace** pour l'ère de l'IA.
 
 ---
 
 ## 📖 Documentation
 
 | Section | Contenu |
-| --- | --- |
+|---------|---------|
 | [Framework](framework/SYNAPSE-V1.md) | Vue d'ensemble complète |
 | [Rôles](framework/roles.md) | Les 4 rôles humains |
-| [Agents](framework/agents.md) | Les 4 agents IA |
+| [Agents](framework/agents.md) | Les 4 agents cognitifs |
 | [Boucles](framework/loops.md) | Les 3 boucles de feedback |
 | [Métriques](framework/metrics.md) | Les 11 métriques cognitives |
-| [Éthique](framework/ethics.md) | Charte éthique |
-| [Templates](templates/) | Tous les templates |
+| [Éthique](framework/ethics.md) | Charte et garde-fous |
+| [Templates](templates/) | Intent Statement, Decision Record... |
 | [FAQ](community/faq.md) | Questions fréquentes |
-
----
-
-## 📦 Modèle Open Core
-
-| Composant | Licence | Accès |
-| --- | --- | --- |
-| Framework & Documentation | CC BY-SA 4.0 | Ce repository |
-| Templates & Guides | CC BY-SA 4.0 | Ce repository |
-| Agents IA | Propriétaire | SYNAPSE Cloud / Enterprise |
-
-**Le framework conceptuel est entièrement ouvert.** Vous pouvez implémenter les rôles, boucles et métriques dès maintenant.
-
-**Les agents IA** accélèrent et amplifient les bénéfices. Disponibles via :
-- **SYNAPSE Cloud** — Service managé *(bientôt)*
-- **SYNAPSE Enterprise** — Sur votre infrastructure
-
-📧 Contact : synapse-origin@proton.me
 
 ---
 
 ## 🤝 Contribuer
 
-Les contributions sont ouvertes sur la documentation et les templates.
+SYNAPSE est un framework ouvert (CC BY-SA 4.0).
 
-* [Guide de contribution](CONTRIBUTING.md)
-* [Code de conduite](CODE_OF_CONDUCT.md)
+- [Guide de contribution](CONTRIBUTING.md)
+- [Code de conduite](CODE_OF_CONDUCT.md)
+
+**Vous pouvez contribuer :**
+- Documentation et traductions
+- Templates et études de cas
+- Retours d'expérience
 
 💬 [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
 
 ---
 
-## 🌐 Vision
+## 🔮 Implémentation de Référence
 
-SYNAPSE aspire à devenir le framework de référence pour les organisations hybrides humains-IA, réconciliant vitesse, responsabilité et intelligence collective.
+Une solution d'implémentation SYNAPSE (cloud et on-premise) sera proposée pour les organisations souhaitant une mise en œuvre clé en main. En attendant, le framework est conçu pour être implémenté avec les outils de votre choix.
+
+📧 Contact : synapse-origin@proton.me
+
+---
+
+## 🌍 Vision
+
+SYNAPSE aspire à devenir le framework de référence pour les organisations qui veulent structurer leur collaboration avec l'IA — de façon éthique, efficace et humaine.
 
 ---
 
