@@ -1,12 +1,12 @@
 # Licence SYNAPSE
 
-## Modèle Open Core
+## Philosophie
 
-SYNAPSE utilise un modèle **Open Core** : le framework conceptuel est ouvert, les agents IA sont propriétaires.
+SYNAPSE est un **framework organisationnel ouvert**. Notre objectif est de diffuser largement les pratiques de collaboration humain-IA, pas de verrouiller une technologie.
 
 ---
 
-## 📖 Documentation & Framework (Ouvert)
+## 📖 Framework & Documentation (Ouvert)
 
 **Licence : Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
@@ -15,7 +15,7 @@ SYNAPSE utilise un modèle **Open Core** : le framework conceptuel est ouvert, l
 - Les templates (`/templates/`)
 - Les études de cas (`/case-studies/`)
 - Le manifeste et les guides
-- Les spécifications conceptuelles des rôles, boucles et métriques
+- Les spécifications des rôles, boucles, métriques et agents
 
 **Vous pouvez :**
 - ✅ Partager — copier et redistribuer le matériel sous quelque format que ce soit
@@ -30,95 +30,80 @@ SYNAPSE utilise un modèle **Open Core** : le framework conceptuel est ouvert, l
 
 ---
 
-## 🤖 Agents IA SYNAPSE (Propriétaire)
+## 🤖 Implémentation des Agents
 
-**Licence : Propriétaire - Tous droits réservés**
+**Les spécifications fonctionnelles des agents sont ouvertes** (CC BY-SA 4.0).
 
-**Ce qui est couvert :**
-- Memory Agent
-- Pattern Agent
-- Simulation Agent
-- Coordination Agent
-- Dashboard SYNAPSE
-- Intégrations et connecteurs
+Vous pouvez implémenter les agents SYNAPSE avec :
+- Des outils no-code (n8n, Make, Zapier)
+- Des LLMs via API (Claude, GPT, Mistral, Ollama)
+- Des solutions sur étagère
+- Du développement custom
 
-**Le code des agents n'est pas disponible publiquement.**
+**Ce qui compte :** respecter les missions, les garde-fous et les interactions définies dans la documentation.
 
-### Utilisation des Agents
+### Implémentation de Référence (à venir)
 
-**SYNAPSE Cloud** (Service managé)
-- Agents hébergés et maintenus par SYNAPSE
-- À partir de 99€/mois
-- https://cloud.synapse.dev *(à venir)*
-
-**SYNAPSE Enterprise** (On-premise)
-- Déploiement dans votre infrastructure
-- Licence annuelle
-- Support dédié
-- Contact : enterprise@synapse-origin.org
+Une solution d'implémentation SYNAPSE (cloud et on-premise) sera proposée pour les organisations souhaitant une mise en œuvre clé en main. En attendant, le framework est conçu pour être implémenté avec les outils de votre choix.
 
 ---
 
 ## 🎯 En Résumé
 
-| Composant | Licence | Utilisation |
-|-----------|---------|-------------|
-| Documentation | CC BY-SA 4.0 | Libre avec attribution |
-| Templates | CC BY-SA 4.0 | Libre avec attribution |
-| Méthodologie | CC BY-SA 4.0 | Libre avec attribution |
-| Agents IA | Propriétaire | SYNAPSE Cloud ou Enterprise |
-| Dashboard | Propriétaire | SYNAPSE Cloud ou Enterprise |
+| Composant | Licence | Vous pouvez... |
+|-----------|---------|----------------|
+| Documentation | CC BY-SA 4.0 | Utiliser, adapter, partager |
+| Templates | CC BY-SA 4.0 | Utiliser, adapter, partager |
+| Spécifications agents | CC BY-SA 4.0 | Implémenter librement |
+| Méthodologie | CC BY-SA 4.0 | Former, conseiller, déployer |
 
 ---
 
 ## ❓ Questions Fréquentes
 
-### Puis-je utiliser la méthodologie SYNAPSE sans les agents ?
+### Puis-je utiliser SYNAPSE sans implémenter les agents IA ?
 
-**Oui.** La documentation est entièrement ouverte. Vous pouvez :
-- Implémenter les 4 rôles humains
-- Utiliser les 3 boucles
-- Suivre les templates
-- Mesurer les 11 métriques
+**Oui.** Le framework fonctionne à plusieurs niveaux :
+- Les 4 rôles humains peuvent être adoptés immédiatement
+- Les 3 boucles remplacent les rituels agiles sans technologie
+- Les 11 métriques peuvent être mesurées manuellement
+- Les agents augmentent l'efficacité mais ne sont pas obligatoires
 
-Les agents IA augmentent l'efficacité mais ne sont pas obligatoires pour démarrer.
+### Puis-je créer mes propres agents ?
 
-### Puis-je créer mes propres agents basés sur les spécifications ?
+**Oui.** Les spécifications fonctionnelles sont ouvertes. Vous pouvez créer vos propres implémentations. Vous ne pouvez pas les appeler "SYNAPSE Agent Officiel" ni prétendre qu'ils sont fournis par SYNAPSE.
 
-**Oui**, vous pouvez créer vos propres implémentations basées sur les spécifications publiques. Vous ne pouvez pas les appeler "SYNAPSE Agent" ni prétendre qu'ils sont officiels.
-
-### Puis-je proposer des services de conseil autour de SYNAPSE ?
+### Puis-je proposer des services autour de SYNAPSE ?
 
 **Oui.** Vous pouvez :
-- Former des équipes à la méthodologie SYNAPSE
-- Accompagner des implémentations
+- Former des équipes à la méthodologie
+- Accompagner des transformations organisationnelles
+- Implémenter les agents pour des clients
 - Créer du contenu éducatif
 
-Vous devez créditer SYNAPSE et ne pouvez pas prétendre être affilié officiellement sans accord.
+Vous devez créditer SYNAPSE et respecter la licence CC BY-SA 4.0.
 
 ### Puis-je traduire la documentation ?
 
-**Oui**, avec attribution. Les traductions communautaires sont encouragées et peuvent être intégrées au repo officiel.
+**Oui**, avec attribution. Les traductions communautaires sont encouragées.
 
 ---
 
 ## 📞 Contact
 
-**Licence & Utilisation commerciale :** legal@synapse-origin.org  
-**Partenariats :** partners@synapse-origin.org  
-**Questions générales :** synapse-origin@proton.me
+**Questions générales :** synapse-origin@proton.me  
+**Partenariats :** synapse-origin@proton.me
 
 ---
 
-## 🛡️ Marque Déposée
+## 🛡️ Marque
 
-**SYNAPSE™** est une marque déposée (en cours).
+**SYNAPSE** est un nom de projet.
 
-- Le nom "SYNAPSE" et le logo sont protégés
-- Utilisation du nom pour décrire la compatibilité autorisée ("Compatible SYNAPSE", "Basé sur SYNAPSE")
+- Utilisation pour décrire la compatibilité autorisée ("Compatible SYNAPSE", "Basé sur SYNAPSE")
 - Utilisation suggérant une affiliation officielle interdite sans accord
 
 ---
 
-**Version :** 1.0  
-**Date :** Novembre 2025  
+**Version :** 2.0  
+**Date :** Janvier 2026
