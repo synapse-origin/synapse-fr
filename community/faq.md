@@ -6,82 +6,80 @@
 
 ### Qu'est-ce que SYNAPSE exactement ?
 
-SYNAPSE est un framework d'organisation où humains et intelligences artificielles collaborent dans une relation symbiotique. Ce n'est pas un outil, mais une nouvelle façon de structurer et faire fonctionner une organisation.
+SYNAPSE est un **framework organisationnel** qui définit comment structurer la collaboration entre humains et IA. Ce n'est pas un outil ou un logiciel, mais une façon de faire fonctionner une organisation.
 
-### Quel est l'état actuel du projet ?
-
-**SYNAPSE V1.0 est opérationnel** (Janvier 2026) :
-- ✅ 4 agents IA en production (Memory, Pattern, Simulation, Coordination)
-- ✅ Dashboard avec 11 métriques cognitives
-- ✅ Ethics Compliance System
-- ✅ API Gateway TypeScript/Fastify
-- ✅ Frontend React complet
-
-Nous recherchons maintenant des **organisations pilotes** pour valider le framework en conditions réelles.
+Il comprend :
+- **4 rôles humains** (Intent Architect, Ethical Guardian, System Orchestrator, Sovereign Maker)
+- **4 agents cognitifs** (Memory, Pattern, Simulation, Coordination)
+- **3 boucles de feedback** (Intent Sync, Pattern Review, Decision Moment)
+- **11 métriques** pour mesurer la santé du système
 
 ### En quoi c'est différent de l'agilité (Scrum, Kanban, SAFe) ?
 
 | Aspect | Agilité Classique | SYNAPSE |
 |--------|------------------|---------|
 | Décisions | Humains seuls | Humains + IA |
-| Adaptation | Cycles fixes (sprints) | Continue (temps réel) |
-| Mémoire | Documentation manuelle | Graphe de connaissances auto-généré |
+| Adaptation | Cycles fixes (sprints) | Continue (événementielle) |
+| Mémoire | Documentation manuelle | Mémoire organisationnelle persistante |
 | Coordination | Rituels humains (daily, retro) | Détection automatique + intervention ciblée |
-| Patterns | Détectés en rétro (trop tard) | Temps réel |
+| Patterns | Détectés en rétro (trop tard) | Détection continue |
 
-SYNAPSE ne complète pas l'agilité, il la remplace.
+SYNAPSE ne complète pas l'agilité, il la remplace pour l'ère de l'IA.
+
+### Peut-on utiliser SYNAPSE sans IA ?
+
+**Partiellement, oui.** Vous pouvez adopter immédiatement :
+- Les 4 rôles humains
+- Les 3 boucles (comme nouveaux rituels)
+- Les 11 métriques (mesurées manuellement)
+- La charte éthique
+
+Les agents IA augmentent l'efficacité mais ne sont pas obligatoires pour commencer.
+
+### Quel est l'état actuel du projet ?
+
+**SYNAPSE V1.0** est un framework documenté et prêt à être adopté :
+- ✅ Documentation complète
+- ✅ Spécifications des 4 agents
+- ✅ Templates prêts à l'emploi
+- ✅ Guide de transition depuis Scrum
+
+Nous recherchons des **organisations pilotes** pour valider le framework en conditions réelles.
 
 ---
 
-## Technique
+## Implémentation
 
-### Quelles technologies sont utilisées ?
+### Comment implémenter les agents ?
 
-**Stack V1 :**
+Les agents SYNAPSE sont définis par leurs **spécifications fonctionnelles** (missions, garde-fous, interactions). L'implémentation technique est libre.
 
-| Composant | Technologie |
-|-----------|-------------|
-| API Gateway | TypeScript / Fastify |
-| ORM | Prisma |
-| Base de données | PostgreSQL + pgvector |
-| Queue | Bull / Redis |
-| LLM Chat | 1min.ai ou API externe |
-| LLM Embeddings | Ollama (local) |
-| Frontend | React / Tailwind |
+**Options possibles :**
+- Outils no-code (n8n, Make, Zapier)
+- LLMs via API (Claude, GPT, Mistral)
+- LLMs locaux (Ollama)
+- Développement custom
+- Solutions sur étagère
+
+👉 [Spécifications des agents](../framework/agents.md)
+
+### Existe-t-il une implémentation officielle ?
+
+**À venir.** Une solution d'implémentation SYNAPSE (cloud et on-premise) sera proposée pour les organisations souhaitant une mise en œuvre clé en main. En attendant, le framework est conçu pour être implémenté avec les outils de votre choix.
 
 ### Combien ça coûte ?
 
-**Option cloud/API :**
-- Infrastructure : 50-100€/mois
-- APIs LLM : 50-200€/mois
-- **Total : ~100-300€/mois**
+**Le framework est gratuit** (licence CC BY-SA 4.0).
 
-**Option souveraine (tout local) :**
-- Hardware one-time : ~500€
-- LLM : Ollama gratuit
-- **Coût récurrent : ~0€**
+Les coûts d'implémentation dépendent de vos choix :
+- **Option manuelle** : 0€ (rôles + boucles sans agents)
+- **Option no-code** : Variable selon les outils
+- **Option LLM cloud** : Selon consommation API
+- **Option locale** : Coût hardware initial, puis ~0€
 
 ### Peut-on déployer entièrement en local ?
 
-**Oui !** C'est même un des différenciateurs de SYNAPSE :
-- PostgreSQL + pgvector : local
-- Ollama : LLM local (Mistral, Llama, etc.)
-- Aucune dépendance cloud obligatoire
-- 100% souveraineté des données
-
-### Comment gérez-vous la sécurité des données ?
-
-**Principes :**
-- Chiffrement at-rest et in-transit
-- Authentification JWT + API Keys
-- RBAC (Role-Based Access Control)
-- Logs d'audit complets
-- Déploiement on-premise possible
-
-**RGPD :**
-- Droit à l'oubli implémenté
-- Minimisation des données
-- Transparence totale
+**Oui.** Le framework est agnostique. Vous pouvez implémenter les agents avec des LLMs locaux (Ollama, etc.) pour une souveraineté totale des données.
 
 ---
 
@@ -89,41 +87,46 @@ SYNAPSE ne complète pas l'agilité, il la remplace.
 
 ### Mon équipe est résistante au changement. Comment convaincre ?
 
-**Stratégie :**
-1. **Commencer petit** : 1 équipe volontaire
-2. **Montrer, ne pas dire** : Résultats concrets > promesses
-3. **Impliquer tôt** : Co-construire, pas imposer
-4. **Célébrer les victoires** : Communiquer chaque amélioration
+**Stratégie recommandée :**
+1. **Commencer petit** : 1 équipe volontaire, pas toute l'organisation
+2. **Commencer simple** : Les rôles et boucles d'abord, les agents ensuite
+3. **Montrer, ne pas dire** : Résultats concrets > promesses
+4. **Impliquer tôt** : Co-construire, pas imposer
 
 **Argument clé :** L'IA aide, ne remplace pas. Les humains restent aux commandes.
 
 ### Combien de temps avant de voir des résultats ?
 
-**1 mois :** Memory Agent réduit le temps de recherche d'info
+**1 mois :** Clarté d'intention améliorée, moins de réunions inutiles
 
-**3 mois :** Patterns détectés et traités, décisions de meilleure qualité
+**3 mois :** Patterns détectés et traités, décisions mieux informées
 
-**6-12 mois :** Transformation profonde, gains business mesurables
+**6 mois :** Transformation visible, métriques dans le vert
 
 ### Quels types d'organisations peuvent utiliser SYNAPSE ?
 
 **Idéal pour :**
 - Équipes tech / produit (5-50 personnes)
-- Startups / scale-ups en croissance
+- Startups / scale-ups
 - Départements innovation
+- Cabinets de conseil
 
 **Moins adapté pour :**
 - Organisations très réglementées sans marge de manœuvre
 - Contextes où l'expérimentation est impossible
+- Équipes sans appétence pour l'IA
 
-### Que se passe-t-il si un agent IA se trompe ?
+### Faut-il abandonner Scrum pour utiliser SYNAPSE ?
 
-**Garde-fous en place :**
-1. Les humains décident toujours (l'IA propose)
-2. Ethical Guardian audite en continu
-3. Alertes automatiques sur anomalies
-4. Traçabilité complète
-5. Possibilité de désactiver un agent
+**Transition progressive possible :**
+
+| Phase | Durée | Ce qui change |
+|-------|-------|---------------|
+| Hybride | Mois 1-2 | Gardez Scrum + ajoutez les rôles SYNAPSE |
+| Transition | Mois 3-4 | Réduisez les rituels, ajoutez les boucles |
+| SYNAPSE | Mois 5+ | Adaptation continue, plus de cycles fixes |
+
+👉 [Guide de transition](../docs/transition-guide.md)
 
 ---
 
@@ -131,85 +134,43 @@ SYNAPSE ne complète pas l'agilité, il la remplace.
 
 ### L'IA ne va-t-elle pas remplacer les humains ?
 
-**Non.** SYNAPSE **augmente** les capacités humaines :
+**Non.** SYNAPSE **augmente** les capacités humaines, il ne les remplace pas.
 
-**Ce que l'IA fait mieux :**
-- Mémoire parfaite
-- Détection de patterns
-- Calculs et simulations
+| L'IA fait mieux | Les humains gardent |
+|-----------------|---------------------|
+| Mémoire parfaite | Définir le sens et l'intention |
+| Détection de patterns | Jugement éthique et contextuel |
+| Calculs et simulations | Créativité |
+| Surveillance continue | Décisions en incertitude radicale |
 
-**Ce que les humains gardent :**
-- Définir le sens et l'intention
-- Jugement éthique
-- Créativité
-- Décisions en incertitude radicale
+**Principe fondamental :** L'agent propose, l'humain décide. Toujours.
 
-### Comment évitez-vous les biais algorithmiques ?
+### Comment éviter les biais algorithmiques ?
 
-**Mesures V1 :**
-1. Ethical Guardian comme rôle dédié
-2. Audits éthiques automatisés (8 principes)
-3. Score de conformité visible
-4. Alertes si dérive détectée
-5. Droit de contestation
+**Garde-fous intégrés au framework :**
+1. **Ethical Guardian** : Rôle humain dédié à l'audit
+2. **Garde-fous par agent** : Ce que chaque agent ne doit PAS faire
+3. **Droit de contestation** : Tout le monde peut challenger une décision IA
+4. **Transparence** : Chaque proposition IA est explicable
+
+👉 [Charte éthique complète](../framework/ethics.md)
 
 ### Qu'est-ce qui empêche la surveillance des employés ?
 
-**Garde-fous éthiques :**
-1. Charte des droits intégrée
-2. Interdictions explicites (keylogging, scoring individuel...)
-3. Transparence : chacun sait ce qui est capturé
-4. Ethical Guardian avec pouvoir de veto
+**Interdictions explicites dans le framework :**
+- ❌ Tracking individuel minute par minute
+- ❌ Comparaison des performances individuelles
+- ❌ Scoring des personnes
+- ❌ Surveillance hors heures de travail
+
+**Garde-fous :**
+- Ethical Guardian avec pouvoir de veto
+- Charte des droits des employés
+- Transparence : chacun sait ce qui est capturé
 
 ---
 
-## Adoption
-
-### Par où commencer ?
-
-1. **Lire** : [SYNAPSE V1](../framework/SYNAPSE-V1.md) (30 min)
-2. **Comprendre** : Les 4 rôles, 4 agents, 3 boucles
-3. **Expérimenter** : [Guide d'implémentation](../docs/getting-started.md)
-4. **Rejoindre** : [Discussions GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
-
-### Faut-il abandonner Scrum/Kanban pour utiliser SYNAPSE ?
-
-**Transition progressive possible :**
-
-**Phase 1 (Hybride) :**
-- Gardez vos sprints
-- Ajoutez Memory Agent
-- Observez
-
-**Phase 2 (Transition) :**
-- Réduisez certains rituels
-- Augmentez l'autonomie des agents
-- Les boucles SYNAPSE remplacent certaines cérémonies
-
-**Phase 3 (SYNAPSE pur) :**
-- Adaptation continue
-- Plus de cycles fixes
-
-### Comment devenir organisation pilote ?
-
-**Critères :**
-- Équipe tech/produit (5-50 personnes)
-- Volontaires pour expérimenter (3-6 mois)
-- Capacité à documenter et partager
-
-**Process :**
-1. Contact : synapse-origin@proton.me
-2. Échange de qualification
-3. Onboarding personnalisé
-
-**En échange :**
-- Support direct
-- Accès prioritaire aux évolutions
-- Co-construction du framework
-
----
-
-## Comparaison
+## Comparaisons
 
 ### SYNAPSE vs SAFe ?
 
@@ -217,8 +178,9 @@ SYNAPSE ne complète pas l'agilité, il la remplace.
 |--------|------|---------|
 | Philosophie | Process-driven | Intelligence-driven |
 | Coordination | Hiérarchie + rituels | Agents IA + humains |
-| Adaptation | Cycles trimestriels | Continue |
-| IA | Absente | Au cœur |
+| Adaptation | Cycles trimestriels (PI) | Continue |
+| IA | Absente | Au cœur du système |
+| Complexité | Très élevée | Modulaire |
 
 ### SYNAPSE vs Holacracy ?
 
@@ -226,25 +188,53 @@ SYNAPSE ne complète pas l'agilité, il la remplace.
 |--------|-----------|---------|
 | Philosophie | Auto-gouvernance pure | Hybridation humain-IA |
 | Rôles | Fluides, nombreux | 4 rôles fixes + agents |
+| Gouvernance | Processus humains lourds | IA gère la complexité |
 | IA | Absente | Centrale |
+
+---
+
+## Adoption
+
+### Par où commencer ?
+
+1. **Lire** (30 min) : [SYNAPSE V1](../framework/SYNAPSE-V1.md)
+2. **Identifier** les 4 rôles dans votre équipe : [Guide des rôles](../framework/roles.md)
+3. **Rédiger** votre Intent Statement : [Template](../templates/intent-statement.md)
+4. **Expérimenter** les 3 boucles : [Guide des boucles](../framework/loops.md)
+
+### Comment devenir organisation pilote ?
+
+**Critères :**
+- Équipe de 5-50 personnes
+- Volontaires pour expérimenter (3-6 mois)
+- Capacité à documenter et partager les résultats
+
+**En échange :**
+- Accompagnement personnalisé
+- Influence sur l'évolution du framework
+- Visibilité (si souhaitée)
+
+📧 Contact : synapse-origin@proton.me
+
+### Comment contribuer ?
+
+- **Documentation** : Améliorations, traductions
+- **Templates** : Nouveaux templates utiles
+- **Études de cas** : Partagez votre expérience
+- **Discussions** : Questions, idées, débats
+
+👉 [Guide de contribution](../CONTRIBUTING.md)
 
 ---
 
 ## Support
 
-### J'ai un problème, où demander de l'aide ?
+### J'ai une question, où demander ?
 
-1. **Documentation** : [/docs](../docs/)
-2. **FAQ** : Vous y êtes !
-3. **Discussions** : [GitHub](https://github.com/synapse-origin/synapse-fr/discussions)
+1. **Cette FAQ** : Vous y êtes !
+2. **Documentation** : [/docs](../docs/) et [/framework](../framework/)
+3. **Discussions GitHub** : [Lien](https://github.com/synapse-origin/synapse-fr/discussions)
 4. **Email** : synapse-origin@proton.me
-
-### Je veux contribuer, comment faire ?
-
-- [Guide de contribution](../CONTRIBUTING.md)
-- Documentation et templates ouverts
-- Traductions bienvenues
-- Études de cas recherchées
 
 ---
 
