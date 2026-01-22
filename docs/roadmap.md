@@ -4,198 +4,152 @@ Cette roadmap évolue avec les contributions de la communauté.
 
 ---
 
-## 📍 Statut Actuel : V1.0 Production
-**Date** : Janvier 2026  
-**Agents opérationnels** : 4/4  
-**Stack** : TypeScript/Fastify/Prisma  
+## 📍 Statut Actuel : V1.0
+
+**Date :** Janvier 2026  
+**État :** Framework documenté et prêt à l'adoption
 
 ---
 
-## ✅ RÉALISÉ
+## ✅ Réalisé
 
-### 2025 : Fondations & Développement
+### 2025 : Fondations
 
-#### Q4 2025 ✅
 - [x] Publication du Manifeste
-- [x] Documentation Framework complète (100k+ mots)
-- [x] Structure GitHub
-- [x] Memory Agent (prototype → production)
-- [x] Pattern Agent (prototype → production)
-- [x] Dashboard métriques cognitives
-- [x] Ethics Compliance System
+- [x] Documentation complète du framework
+- [x] Spécification des 4 rôles humains
+- [x] Spécification des 4 agents cognitifs
+- [x] Définition des 3 boucles
+- [x] Définition des 11 métriques cognitives
+- [x] Charte éthique et garde-fous
+- [x] Templates (Intent Statement, Decision Record, Pattern Report, Ethics Audit)
+- [x] Guide de transition depuis Scrum
 
-#### Migration Technique ✅
-- [x] Migration N8N → TypeScript natif
-- [x] API Gateway Fastify
-- [x] Prisma ORM
-- [x] PostgreSQL + pgvector
-- [x] Bull/Redis pour jobs
-- [x] Frontend React complet
+### Janvier 2026 : V1.0
 
-### Janvier 2026 ✅
-
-- [x] **Simulation Agent** - Production
-- [x] **Coordination Agent** - Production
-- [x] Intent Sync automatisé
-- [x] Hiérarchie Intent (Organisation → Équipe)
-- [x] Internationalisation (FR/EN)
-- [x] 11 métriques cognitives implémentées
-- [x] Audits éthiques automatisés
+- [x] Consolidation de la documentation
+- [x] Spécifications fonctionnelles des agents (missions, garde-fous, prompts)
+- [x] Guide d'implémentation
+- [x] FAQ complète
 
 ---
 
-## 🔄 EN COURS (Q1 2026)
+## 🔄 En Cours (Q1 2026)
 
-### Recherche Pilotes
-- [ ] Identification organisations candidates
-- [ ] Critères de sélection définis
-- [ ] Process d'onboarding documenté
-- [ ] Support pilote préparé
+### Validation Terrain
+
+- [ ] Recrutement de 3-5 organisations pilotes
+- [ ] Accompagnement des premières implémentations
+- [ ] Collecte de retours d'expérience
+- [ ] Premières études de cas
 
 ### Documentation
-- [ ] Guides vidéo
-- [ ] Tutoriels interactifs
-- [ ] API documentation complète (OpenAPI)
 
-### Optimisations
-- [ ] Performance tuning
-- [ ] Tests de charge
-- [ ] Monitoring avancé
+- [ ] Traduction anglaise
+- [ ] Exemples concrets par secteur (Tech, Conseil, Produit)
+- [ ] Vidéos explicatives
 
 ---
 
-## 📅 PLANIFIÉ
+## 📅 Prochaines Étapes
 
-### Q2 2026 : Validation Terrain
+### Q2 2026 : Retours Pilotes
 
-**Objectifs :**
-- 3-5 organisations pilotes actives
-- Premiers retours terrain documentés
-- Ajustements basés sur feedback réel
+- [ ] Analyse des résultats pilotes
+- [ ] Ajustements du framework basés sur les retours
+- [ ] Publication des premières études de cas
+- [ ] V1.1 avec améliorations
 
-**Livrables :**
-- [ ] Onboarding première organisation
-- [ ] Métriques de succès définies
-- [ ] Feedback loop établi
-- [ ] Première étude de cas (draft)
+### Q3 2026 : Expansion
 
-### Q3 2026 : Consolidation
+- [ ] 10+ organisations utilisatrices
+- [ ] Communauté de praticiens
+- [ ] Premiers meetups / webinars
+- [ ] Programme de formation
 
-**Objectifs :**
-- Framework validé par terrain
-- Documentation enrichie des retours
-- Communauté naissante
+### Q4 2026 : Maturité
 
-**Livrables :**
-- [ ] 5+ études de cas publiées
-- [ ] Framework V1.1 (ajustements)
-- [ ] Programme ambassadeurs lancé
-- [ ] Première publication académique soumise
-
-### Q4 2026 : Expansion
-
-**Objectifs :**
-- 10+ organisations utilisent SYNAPSE
-- Reconnaissance dans l'écosystème agile/IA
-- Modèle économique validé
-
-**Livrables :**
-- [ ] SYNAPSE Cloud beta
-- [ ] Certification SYNAPSE (beta)
-- [ ] Premier événement communautaire
-- [ ] Partenariats conseil établis
+- [ ] Framework V2.0 (basé sur 12 mois de retours)
+- [ ] Certification SYNAPSE (optionnel)
+- [ ] Conférence annuelle
+- [ ] Partenariats avec cabinets de conseil / écoles
 
 ---
 
-## 🔮 2027+ : Vision Long Terme
+## 🔮 Vision Long Terme (2027+)
 
-### Adoption
-- 50+ organisations SYNAPSE
-- Reconnaissance académique
-- Enseignement en écoles
+### Framework
 
-### Technologie
-- Marketplace d'extensions
-- Intégrations tierces (Jira, Notion, Linear...)
-- Standards d'interopérabilité
+- Standard reconnu pour la collaboration humain-IA
+- Adoption internationale
+- Recherche académique (publications, thèses)
+- Enseignement dans écoles de management
 
 ### Communauté
-- Chapitres locaux
-- Conférence annuelle
-- Écosystème de partenaires
 
-### Recherche
-- Publications académiques
-- Collaborations universités
-- Études longitudinales
+- 100+ organisations utilisatrices
+- Réseau de praticiens certifiés
+- Chapitres locaux (France, Europe, International)
+- Conférence annuelle établie
 
----
+### Implémentation de Référence
 
-## 🎯 Métriques de Succès
-
-### Court terme (Q2 2026)
-| Métrique | Cible |
-|----------|-------|
-| Organisations pilotes | 3-5 |
-| Agents en production | 4/4 ✅ |
-| Documentation complète | ✅ |
-
-### Moyen terme (Q4 2026)
-| Métrique | Cible |
-|----------|-------|
-| Organisations actives | 10+ |
-| Études de cas publiées | 5+ |
-| Contributeurs | 20+ |
-
-### Long terme (2027)
-| Métrique | Cible |
-|----------|-------|
-| Organisations | 50+ |
-| Publications académiques | 3+ |
-| Communauté active | 500+ membres |
+Une solution d'implémentation SYNAPSE (cloud et on-premise) sera proposée pour les organisations souhaitant une mise en œuvre clé en main. En attendant, le framework est conçu pour être implémenté avec les outils de votre choix.
 
 ---
 
-## 🤝 Comment Influencer la Roadmap
+## 🎯 Indicateurs de Succès
 
-### 1. Devenir Organisation Pilote
-Vos besoins influencent directement le framework.
-📧 synapse-origin@proton.me
+### Adoption
 
-### 2. Contribuer
-- Documentation
-- Templates
-- Traductions
-- Études de cas
+| Indicateur | 2026 | 2027 |
+|------------|------|------|
+| Organisations pilotes | 5 | 20 |
+| Organisations utilisatrices | 10 | 50+ |
+| Études de cas publiées | 3 | 10+ |
+| Stars GitHub | 100 | 500+ |
 
-### 3. Participer aux Discussions
-💬 [GitHub Discussions](https://github.com/synapse-origin/synapse-fr/discussions)
+### Impact
+
+| Indicateur | Cible |
+|------------|-------|
+| Temps de cycle réduit | -30% (médiane pilotes) |
+| Charge cognitive | Stable ou réduite |
+| Satisfaction équipe | > 7/10 |
+
+### Communauté
+
+| Indicateur | 2026 | 2027 |
+|------------|------|------|
+| Contributeurs actifs | 10 | 50 |
+| Traductions | 2 (FR, EN) | 5+ |
+| Meetups / événements | 2 | 10+ |
 
 ---
 
-## 🚨 Risques et Contingences
+## 🤝 Influencer la Roadmap
 
-### Risque : Pas d'organisation pilote Q2 2026
+Cette roadmap n'est pas figée. Vous pouvez l'influencer :
 
-**Contingence :**
-- Utiliser SYNAPSE pour développer SYNAPSE (dogfooding)
-- Partenariat avec incubateurs/accélérateurs
-- Offre gratuite première année
+**Via GitHub**
+- [Discussions](https://github.com/synapse-origin/synapse-fr/discussions) : Proposez des idées
+- Issues : Signalez des problèmes ou manques
 
-### Risque : Complexité adoption
+**En devenant pilote**
+- Vos besoins influencent directement le framework
+- Contact : synapse-origin@proton.me
 
-**Contingence :**
-- Guides pas-à-pas détaillés
-- Support direct premiers pilotes
-- Simplification progressive
+**En contribuant**
+- Documentation, templates, traductions
+- [Guide de contribution](../CONTRIBUTING.md)
 
 ---
 
 ## 📞 Contact
 
-**Devenir pilote** : synapse-origin@proton.me  
-**Contribuer** : [GitHub](https://github.com/synapse-origin/synapse-fr)  
-**Questions** : [Discussions](https://github.com/synapse-origin/synapse-fr/discussions)
+**Questions sur la roadmap :** synapse-origin@proton.me  
+**Devenir pilote :** synapse-origin@proton.me  
+**Contribuer :** [GitHub](https://github.com/synapse-origin/synapse-fr)
 
 ---
 
