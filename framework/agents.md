@@ -496,7 +496,7 @@ Tout changement de configuration peut être annulé. Tout agent peut être désa
 
 SYNAPSE est **agnostique sur l'implémentation technique**. Les agents peuvent être réalisés avec :
 
-- Des outils no-code (n8n, Make, Zapier)
+- Des outils no-code (Make, Zapier)
 - Des LLMs via API (Claude, GPT, Mistral)
 - Des solutions sur étagère (Notion AI, etc.)
 - Du développement custom

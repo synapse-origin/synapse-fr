@@ -35,7 +35,7 @@ SYNAPSE est un **framework organisationnel ouvert**. Notre objectif est de diffu
 **Les spécifications fonctionnelles des agents sont ouvertes** (CC BY-SA 4.0).
 
 Vous pouvez implémenter les agents SYNAPSE avec :
-- Des outils no-code (n8n, Make, Zapier)
+- Des outils no-code (Make, Zapier)
 - Des LLMs via API (Claude, GPT, Mistral, Ollama)
 - Des solutions sur étagère
 - Du développement custom

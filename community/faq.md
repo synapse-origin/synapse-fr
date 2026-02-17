@@ -55,7 +55,7 @@ Nous recherchons des **organisations pilotes** pour valider le framework en cond
 Les agents SYNAPSE sont définis par leurs **spécifications fonctionnelles** (missions, garde-fous, interactions). L'implémentation technique est libre.
 
 **Options possibles :**
-- Outils no-code (n8n, Make, Zapier)
+- Outils no-code (Make, Zapier)
 - LLMs via API (Claude, GPT, Mistral)
 - LLMs locaux (Ollama)
 - Développement custom
