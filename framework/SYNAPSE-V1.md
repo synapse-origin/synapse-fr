@@ -209,6 +209,7 @@ Les contributions sont ouvertes sur la documentation et les templates.
 - [Les 4 agents IA](agents.md)
 - [Les 3 boucles](loops.md)
 - [Les 11 métriques](metrics.md)
+- [L'Intent — hiérarchie, règles et cycle de vie](intent.md)
 - [Charte éthique](ethics.md)
 - [Flux continu](continuous-flow.md)
 - [Guide d'implémentation](../docs/getting-started.md)
